@@ -6,11 +6,13 @@
     "keywords"              : ["theme", "Ceres", "template", "Spowa"],
     "type"                  :"theme",
     "require"               : [],
-    "serviceProvider"       :"Spowa\\Providers\\SpowaServiceProvider",
+    "serviceProvider"       :"Theme\\Providers\\ThemeServiceProvider",
     "dataProviders"         :
     [
         {
-            "key"           :"Spowa\\Containers\\SpowaContainer",
+            "key"           :"Theme\\Containers\\ThemeContainer",
             "name"          :"SPOWA Anpassungen",
             "description"   :"Anpassungen des Ceres Templates für SPOWA Active"
         }
+    ]
+}
