@@ -1,0 +1,16 @@
+{
+    "name"                  :"SPOWA Theme",
+    "description"           :"SPOWA theme plugin",
+    "namespace"             :"Spowa",
+    "author"                :"Ralf Liebaug",
+    "keywords"              : ["theme", "Ceres", "template", "Spowa"],
+    "type"                  :"theme",
+    "require"               : [],
+    "serviceProvider"       :"Spowa\\Providers\\SpowaServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"Spowa\\Containers\\SpowaContainer",
+            "name"          :"SPOWA Anpassungen",
+            "description"   :"Anpassungen des Ceres Templates für SPOWA Active"
+        }
