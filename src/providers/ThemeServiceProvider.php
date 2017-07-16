@@ -1,10 +1,10 @@
 <?php
  
-namespace Spowa\Providers;
+namespace Theme\Providers;
  
 use Plenty\Plugin\ServiceProvider;
  
-class SpowaServiceProvider extends ServiceProvider
+class ThemeServiceProvider extends ServiceProvider
 {
  
 	/**
