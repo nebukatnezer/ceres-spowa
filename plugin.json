@@ -1,11 +1,15 @@
 {
+    "version"               : "1.0",
     "name"                  :"SPOWA Theme",
     "description"           :"SPOWA theme plugin",
     "namespace"             :"Theme",
     "author"                :"Ralf Liebaug",
+    "license"               : "AGPL-3.0",
+    "pluginIcon"            : "icon_plugin_xs.png",
+    "price"                 : 0.00,
     "keywords"              : ["theme", "Ceres", "template", "Spowa"],
     "type"                  :"theme",
-    "require"               : [],
+    "require"               : ["Ceres", "IO"],
     "serviceProvider"       :"Theme\\Providers\\ThemeServiceProvider",
     "dataProviders"         :
     [
