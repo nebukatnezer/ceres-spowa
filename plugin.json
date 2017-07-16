@@ -1,7 +1,7 @@
 {
     "name"                  :"SPOWA Theme",
     "description"           :"SPOWA theme plugin",
-    "namespace"             :"Spowa",
+    "namespace"             :"Theme",
     "author"                :"Ralf Liebaug",
     "keywords"              : ["theme", "Ceres", "template", "Spowa"],
     "type"                  :"theme",
