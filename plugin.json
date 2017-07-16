@@ -2,7 +2,7 @@
     "version"               : "1.0",
     "name"                  :"SPOWA Theme",
     "description"           :"SPOWA theme plugin",
-    "namespace"             :"Theme",
+    "namespace"             :"Spowa",
     "author"                :"Ralf Liebaug",
     "license"               : "AGPL-3.0",
     "pluginIcon"            : "icon_plugin_xs.png",
@@ -10,12 +10,12 @@
     "keywords"              : ["theme", "Ceres", "template", "Spowa"],
     "type"                  :"theme",
     "require"               : ["Ceres", "IO"],
-    "serviceProvider"       :"Theme\\Providers\\ThemeServiceProvider",
+    "serviceProvider"       :"Spowa\\Providers\\SpowaServiceProvider",
     "dataProviders"         :
     [
         {
-            "key"           :"Theme\\Containers\\ThemeContainer",
-            "name"          :"SPOWA Anpassungen",
+            "key"           :"Spowa\\Containers\\SpowaContainer",
+            "name"          :"Spowa",
             "description"   :"Anpassungen des Ceres Templates für SPOWA Active"
         }
     ]
