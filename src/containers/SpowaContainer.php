@@ -1,13 +1,13 @@
 <?php
  
-namespace Theme\Containers;
+namespace Spowa\Containers;
  
 use Plenty\Plugin\Templates\Twig;
  
-class ThemeContainer
+class SpowaContainer
 {
     public function call(Twig $twig):string
     {
-        return $twig->render('Theme::content.Theme');
+        return $twig->render('Spowa::content.Spowa');
     }
 }
