@@ -1,7 +1,7 @@
 {
   "name": "Spowa",
   "license": "AGPL-3.0",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/nebukatnezer/ceres-spowa"
